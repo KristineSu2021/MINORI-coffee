@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="./lib/awesome.all.min.css">
     <!-- css -->
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/login-and-signup.css">
     <!--jquery UI-->
     <link rel="stylesheet" href="./lib/jquery-ui.css">
 </head>

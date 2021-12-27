@@ -9,7 +9,7 @@
         <?php } ?>
         <div class="signOut-list">
             <div class="signOut-second-list">
-                <a href="javascript:;">登入/註冊</a>
+                <a href='loginSignup.php'>登入/註冊</a>
             </div>
         </div>
         <?php if (isset($_SESSION['name'])) { ?>

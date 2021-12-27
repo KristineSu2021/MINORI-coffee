@@ -1,0 +1,97 @@
+/* right */
+.mybox{
+    height: auto;
+    background-image:url("../img/coffee-class.jpg")center;
+    padding: 50px 250px;
+}
+.myboxx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 0.5rem;
+    color: #FFC300;
+    margin: 0 0 0 50px;
+}
+
+.left-title{
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.left-info{
+    font-size: 1rem;
+    color: white;
+}
+/* tesaher */
+.teacher{
+    display: flex;
+    padding: 0 250px;
+    
+}
+.t-left{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.t-right{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.t-img{
+    width: 110px;
+    height: 110px;
+}
+.t-img img{
+    border-radius: 50%;
+}
+
+/* star */
+.starbox{
+    padding: 0 250px;
+    color: white;
+}
+.right-side-title{
+    font-size: 1.5rem;
+    color: #FFC300;
+    text-align: center;
+}
+
+.progress{
+    margin: 20px;
+}
+
+.card-r{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.card-l{
+    background-color: black;
+    color: white;
+}
+.card{
+    border:none
+}
+/* evaluation */
+.evaluation{
+    padding: 20px 250px;
+}
+.more{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* //////////////////////////////// RWD */
+@media screen and (max-width:576px) {
+
+
+
+
+
+
+}
