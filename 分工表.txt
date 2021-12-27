@@ -1,0 +1,50 @@
+分工表
+
+怡君
+桌機版Wireframe
+桌機版 視覺稿
+嚴選商品 切版
+熱銷排行 切版
+咖啡課程切版
+咖啡地圖 切版
+
+正慈
+桌機版Wireframe
+桌機版視覺稿
+嚴選商品 切版
+熱銷排行 切版
+視覺總處理
+資料庫整理
+
+豪宗
+公版Header footer
+桌機版Wireframe
+手機版Wireframe
+首頁切版
+試飲包切版
+
+
+柏誠
+公版Header footer
+桌機版Wireframe
+手機版Wireframe
+關於我們
+會員登入
+
+
+
+桌機
+手機
+切版
+人物誌
+同理心地圖
+wireframe
+ui flow
+flow chat
+會員中心
+購物車
+豆單
+
+
+
+
