@@ -285,6 +285,10 @@ ul {
     z-index: 10;
     position: absolute;
     right: 0;
+<<<<<<< main
+=======
+    position: fixed;
+>>>>>>> local
 }
 .main-icons{
     padding: 0 50px;
