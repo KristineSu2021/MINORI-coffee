@@ -1,13 +1,54 @@
+/* left */
+.oooleft{
+    width: 100%;
+    height: 100vh;
+}
+.left-top-bar{
+    margin:24px  0 0 100px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 1.2rem;
+}
+.left-side-title{
+    font-size: 1.5rem;
+    color: #FFC300;
+    text-align: center;
+    margin:24px  0 24px 100px;
+}
+.left-side-text{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding: 0 10rem;
+    margin:24px  0 0 100px;
+}
+.left-info{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+a{  
+    color: #FFC300;
+}
+
 /* right */
 .mybox{
+    width: 100%;
     height: auto;
-    background-image:url("../img/coffee-class.jpg")center;
-    padding: 50px 250px;
+    display: flex;
+    justify-content: center;
+    
 }
 .myboxx{
+    width: 50%;
+    height: auto;
+    background:url("../img/coffee-class.jpg")center center no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 .title{
     font-size: 0.5rem;
@@ -15,16 +56,19 @@
     margin: 0 0 0 50px;
 }
 
-.left-title{
+.right-title{
     color: white;
     font-size: 1.5rem;
+    padding: 5px;
 
 }
 
-.left-info{
+.right-info{
     font-size: 1rem;
     color: white;
+    padding: 5px;
 }
+
 /* tesaher */
 .teacher{
     display: flex;
@@ -53,16 +97,31 @@
 .starbox{
     padding: 0 250px;
     color: white;
+    display: flex;
+    align-items: center;
+}
+
+.star-number{
+    width: 40px;
+}
+
+.star-progress{
+    width: 100%;
+    height: auto;
+}
+
+.star-percent{
+    width: 40px;
 }
 .right-side-title{
     font-size: 1.5rem;
     color: #FFC300;
     text-align: center;
 }
-
 .progress{
     margin: 20px;
 }
+
 
 .card-r{
     background-color: rgba(0, 0, 0, 0.3);
@@ -80,18 +139,63 @@
 }
 .more{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
-
-
+p{
+    margin-bottom:0;
+}
 
 /* //////////////////////////////// RWD */
 @media screen and (max-width:576px) {
+    .left-top-bar{
+        margin: 96px 0 0 0;
+        padding: 20px;
+    }
+    .left-side-title {
+        margin: 0;
+        padding: 20px;
+    }
+    .left-side-text{
+        margin: 0;
+        padding: 10px 20px;
+    }
+    .left-info{
+        margin: 0;
+        display:contents;
+    }
+    .title{
+        padding: 20px 0;
+        margin: 0;
+    }
+    .card{
+        margin: 0;
+    }
+    /* right */
+    .myboxx{
+        width: 100%;
 
-
-
-
-
+    }
+    /* tesaher */
+    .teacher{
+        padding: 0;
+    }
+    .t-left{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    /* star */
+    .starbox{
+        padding: 0 ;
+    }
+    /* evaluation */
+    .evaluation{
+        padding: 0;
+    }
+    .btn{
+        margin-bottom: 20px;
+    }
 
 }

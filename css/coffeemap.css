@@ -74,3 +74,19 @@ body {
 .mycard{
     display: flex;
 }
+
+
+
+
+/* 動態生成css */
+.card{
+    background:url(../img/bg-dark.png);
+    color: white;
+}
+.row{
+    margin: 15px;
+}
+
+a{
+    color: #FFC300;
+}

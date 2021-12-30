@@ -54,7 +54,31 @@ a{
 .mybtn{
     margin: 0 213px;
 }
+/* 彈跳視窗*/
+.modal{
+    top: 120px;
+    margin-left: 475px;
+}
+.modal-header{
+    width: 100%;
+    background-color: #FFC300;
+}
+.modal-title{
+    display: flex;
+    justify-content: center
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-footer{
+    justify-content: center;
 
+}
+.thanks{
+    font-size: 1.5rem;
+}
 
 
 
@@ -68,7 +92,29 @@ a{
 
 /* //////////////////////////////// RWD */
 @media screen and (max-width:576px) {
-
+    .left-top-bar{
+        margin: 96px 0 0 0;
+        padding: 20px;
+    }
+    .left-side-title {
+        margin: 0;
+        padding: 20px;
+    }
+    .left-side-text{
+        margin: 0;
+        padding: 10px 20px;
+    }
+    .left-info{
+        margin: 0;
+        display:contents;
+    }
+    .mybtn{
+        margin: 0 175px;
+    }
+    .modal{
+        top: 0;
+        margin-left: 0;
+    }
 
 
 

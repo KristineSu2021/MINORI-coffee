@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>classpage</title>
+    <title>groupclass</title>
     <!-- bootstrap@4.6 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/1392152695.js" crossorigin="anonymous"></script>
     <!-- css -->
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/companyclass.css">
+    <link rel="stylesheet" href="./css/groupclass.css">
 </head>
 
 <body>
@@ -297,7 +297,7 @@
                         </div>
                         <div class="row myrow">
                             <form class="form-r">
-                                <p class="right-side-title">團體課程洽詢表單  </p>
+                                <p class="right-side-title">團體課程洽詢表單 </p>
                                 <p>請填寫以下報名表單內容，三個工作日內會由專人與您聯繫。</p>
                                 <p>如三個工作內日未收到聯繫，煩請撥打0912-345-678詢問。謝謝！</p>
                                 <div class="form-group">
@@ -344,7 +344,9 @@
                                         placeholder="請輸入課程的需求或是主題內容">
                                 </div>
 
-                                <button type="submit" class="btn btn-warning mybtn">送出表單</button>
+                                <button type="button" class="btn btn-warning mybtn" data-toggle="modal"
+                                data-target="#staticBackdrop">送出表單
+                            </button>
                             </form>
                         </div>
 
@@ -456,6 +458,48 @@
                         <p>版權所有 © minori. All Rights Reserved.</p>
                     </div>
                 </footer>
+            </div>
+        </div>
+    </div>
+    <!--彈跳視窗-->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    團體課程確認
+                    <!-- <h5 class="modal-title" id="staticBackdropLabel">企業包班確認</h5> -->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="thanks">感謝您購買本課程!</p>
+                    <p>訂單已建立，系統將發送確認信件至您的信箱。</p>
+                    <p>課程名稱</p>
+                    <p>手沖咖啡學｜搞懂原理，成為咖啡職人</p>
+                    <p>本訂單將寄送至</p>
+                </div>
+                <div class="modal-footer">
+                    <div class="footerbox">
+                        <div class="fone">
+                            <p>收件人姓名:</p>
+                            <p>XXX有限公司</p>
+                        </div>
+                        <div class="fone">
+                            <p>收件地址:</p>
+                            <p>106台北市大安區復興南路一段390號2樓</p>
+                        </div>
+                        <div class="fone">
+                            <p>報名人數:</p>
+                            <p>45人</p>
+                        </div>
+                        <div class="fone">
+                            <p>開課日期:</p>
+                            <p>2021.11.30</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
